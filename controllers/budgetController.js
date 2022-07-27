@@ -13,7 +13,7 @@ budgets.get("/:arrayIndex", (req, res) => {
     if (budgetData[arrayIndex]) {
         res.json(budgetData[arrayIndex])
     } else {
-        res.redirect('/budgets')
+        res.redirect('/transactions')
     } 
 })
 

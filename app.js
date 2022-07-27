@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
     res.send("welcome to the Budget App Project!!")
 });
 
-app.use("/budgets", budgetController);
+app.use("/transactions", budgetController);
 
 
 app.get("*", (req, res) => {
