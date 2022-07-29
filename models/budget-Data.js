@@ -1,16 +1,16 @@
 module.exports = [
     {
-      item_name: "apples",
+      item_name: "Apples",
       amount: "30",
       date: "2022-07-23",
-      from: "grocery store",
-      category: "food",
+      from: "Grocery Store",
+      category: "Food",
     },
     {
-        item_name: "deposit",
+        item_name: "Deposit",
         amount: "400",
         date: "2022-05-10",
-        from: "bank",
-        category: "income",
+        from: "Bank",
+        category: "Income",
       }
 ]
